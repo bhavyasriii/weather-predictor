@@ -2,11 +2,14 @@ import streamlit as st
 import requests
 import pandas as pd
 import joblib
+import os
 
 # Load the enhanced model
 model = joblib.load("weather_model.pkl")
 
-API_KEY = "63d3f91cface3889b53c1fd0c1c156d9"
+
+import os
+API_KEY = os.environ.get("WEATHER_API_KEY")
 
 # Description to category mapping
 desc_map = {
