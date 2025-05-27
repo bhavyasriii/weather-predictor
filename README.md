@@ -15,7 +15,7 @@ A Machine Learning-powered web app that predicts whether it will rain in a given
 
  Live Demo
 
-👉 [Click here to try the app](https://your-username-weather-predictor.streamlit.app)  
+👉 [Click here to try the app] https://weather-predictor-boom.streamlit.app/ 
 
 
  Tech Stack
