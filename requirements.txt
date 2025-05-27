@@ -1,5 +1,5 @@
-streamlit-For the web interface
-pandas - for working with data and feature names
-scikit-learn - for the logisticRegression model
-requests - to call OpenWeatherMap API
-joblib - to load the saved model(weather_model.pkl)
+streamlit
+pandas
+scikit-learn
+requests
+joblib
