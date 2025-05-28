@@ -30,5 +30,5 @@ model.fit(X, y)
 
 # Save the model
 joblib.dump(model, "weather_model.pkl")
-print("Enhanced model saved as weather_model.pkl")
+print("✅ Enhanced model saved as weather_model.pkl")
 
