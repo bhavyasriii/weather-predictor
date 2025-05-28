@@ -10,6 +10,8 @@ model = joblib.load("weather_model.pkl")
 
 import os
 API_KEY = os.environ.get("WEATHER_API_KEY")
+st.write("API KEY LOADED:", API_KEY)
+
 
 # Description to category mapping
 desc_map = {
